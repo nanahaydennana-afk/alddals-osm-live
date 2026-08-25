@@ -351,3 +351,33 @@ bars.push({
     'assets/noryangjin-fresh-meat/drinks-menu.webp'
   ]
 });
+
+bars.push({
+  id:41,
+  name:'은하정',
+  district:'서울시',
+  hood:'강서구',
+  area:'서울 강서구 공항대로46길 56 1층 · 화곡동 · 강서구청 먹자골목',
+  soju:1500,
+  sojuLabel:'소주 1,500원',
+  beer:1900,
+  beerLabel:'맥주 1,900원',
+  food:5900,
+  foodTitle:'고기류',
+  foodLabel:'생삼겹살 100g 5,900원부터',
+  total:7400,
+  totalTitle:'고기+소주',
+  totalLabel:'7,400원부터',
+  checked:'2026.08.25',
+  eventChecked:'2026.08.25',
+  deal:'오픈 이벤트 안내 · 소주 1,500원 · 맥주 1,900원 · 콜키지 프리 · 생삼겹살·생꽃목살 100g 5,900원 · 네이버 리뷰 작성 시 육회 무료 제공 안내 · 방문 전 이벤트 지속 여부 확인 권장',
+  lat:37.553585,
+  lng:126.852303,
+  source:'https://map.naver.com/p/search/%EC%9D%80%ED%95%98%EC%A0%95/place/2089525904?c=15.00,0,0,0,dh&placePath=%2Fhome%3Fbk_query%3D%EC%9D%80%ED%95%98%EC%A0%95%26entry%3Dbmp%26filterType%3D%EC%97%85%EC%B2%B4%26fromPanelNum%3D2%26locale%3Dko%26searchText%3D%EC%9D%80%ED%95%98%EC%A0%95%26svcName%3Dmap_pcv5%26timestamp%3D202608251252',
+  directions:'https://map.naver.com/p/directions/-/126.852303,37.553585/%EC%9D%80%ED%95%98%EC%A0%95/-/transit',
+  images:[
+    'assets/eunhajeong-gangseo/opening-event.webp',
+    'assets/eunhajeong-gangseo/storefront.webp',
+    'assets/eunhajeong-gangseo/meat-platter.webp'
+  ]
+});
