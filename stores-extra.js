@@ -257,3 +257,37 @@ bars.push({
     'assets/sammimi-yeoksam/counter-fruit.webp'
   ]
 });
+
+bars.push({
+  id:38,
+  name:'세부인보드카',
+  district:'서울시',
+  hood:'마포구',
+  area:'서울 마포구 양화로6길 65 2층 · 서교동 · 합정역 인근',
+  soju:15000,
+  sojuTitle:'칵테일·와인 무제한',
+  sojuPinTitle:'무제한',
+  sojuLabel:'1인 15,000원',
+  beer:0,
+  beerTitle:'기본 이용시간',
+  beerPinTitle:'이용',
+  beerLabel:'기본 3시간 안내',
+  food:0,
+  foodTitle:'무제한 주종',
+  foodLabel:'칵테일·와인',
+  total:15000,
+  totalTitle:'무제한 이용금액',
+  totalLabel:'1인 15,000원',
+  checked:'2026.08.25',
+  eventChecked:'2026.08.25',
+  deal:'칵테일·와인 무제한 1인 15,000원 안내 · 기본 이용시간 3시간 안내 · 테이블 이용 조건과 일부 메뉴 추가금은 방문 전 확인 권장',
+  lat:37.54887876344778,
+  lng:126.91768957074217,
+  source:'https://map.naver.com/p/search/%ED%99%8D%EB%8C%80%20%EC%84%B8%EB%B6%80%EC%9D%B8%EB%B3%B4%EB%93%9C%EC%B9%B4?c=15.00,0,0,0,dh&placePath=%2Fhome%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608251108%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%ED%99%8D%EB%8C%80%20%EC%84%B8%EB%B6%80%EC%9D%B8%EB%B3%B4%EB%93%9C%EC%B9%B4',
+  directions:'https://map.naver.com/p/directions/-/126.91768957074217,37.54887876344778/%EC%84%B8%EB%B6%80%EC%9D%B8%EB%B3%B4%EB%93%9C%EC%B9%B4/-/transit',
+  images:[
+    'assets/cebu-in-vodka-hongdae/cocktails.webp',
+    'assets/cebu-in-vodka-hongdae/interior-bar.webp',
+    'assets/cebu-in-vodka-hongdae/window-table.webp'
+  ]
+});
