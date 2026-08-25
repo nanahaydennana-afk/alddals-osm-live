@@ -479,3 +479,33 @@ bars.push({
     'assets/yeonnam-hangari/chicken-spread.webp'
   ]
 });
+
+bars.push({
+  id:45,
+  name:'이자카야 연정',
+  district:'서울시',
+  hood:'마포구',
+  area:'서울 마포구 양화로23길 24 2층 · 동교동 · 홍대입구역 인근',
+  soju:3000,
+  sojuLabel:'소주 3,000원',
+  beer:3000,
+  beerLabel:'맥주 3,000원',
+  food:18000,
+  foodTitle:'꼬치구이',
+  foodLabel:'연정추천 꼬치 6종 18,000원부터',
+  total:21000,
+  totalTitle:'꼬치 6종+주류',
+  totalLabel:'21,000원부터',
+  checked:'2026.08.25',
+  eventChecked:'2026.08.25',
+  deal:'소주 또는 맥주 3,000원 이벤트 · 테이블당 1회 적용 · 다른 이벤트와 중복 불가 · 20여 종 수제 꼬치와 숙성 사시미 판매 · 방문 전 행사 지속 여부와 적용 조건 확인 권장',
+  lat:37.5595132086359,
+  lng:126.925116831669,
+  source:'https://map.naver.com/p/search/%EC%8B%A0%EC%B4%8C%20%EC%97%B0%EC%A0%95?c=15.00,0,0,0,dh&placePath=%2Fphoto%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608251318%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EC%8B%A0%EC%B4%8C%20%EC%97%B0%EC%A0%95%26filterType%3D%EC%97%85%EC%B2%B4',
+  directions:'https://map.naver.com/p/directions/-/126.925116831669,37.5595132086359/%EC%9D%B4%EC%9E%90%EC%B9%B4%EC%95%BC%20%EC%97%B0%EC%A0%95/-/transit',
+  images:[
+    'assets/izakaya-yeonjeong/drinks-event.webp',
+    'assets/izakaya-yeonjeong/interior.webp',
+    'assets/izakaya-yeonjeong/skewers.webp'
+  ]
+});
