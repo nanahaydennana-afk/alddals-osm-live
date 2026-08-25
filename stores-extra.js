@@ -381,3 +381,35 @@ bars.push({
     'assets/eunhajeong-gangseo/meat-platter.webp'
   ]
 });
+
+bars.push({
+  id:42,
+  name:'소소식탁 구산점',
+  district:'서울시',
+  hood:'은평구',
+  area:'서울 은평구 연서로 124-1 1층 · 역촌동 · 구산역 인근',
+  soju:NaN,
+  sojuLabel:'소주 별도 판매',
+  beer:3000,
+  beerTitle:'생맥주 500cc',
+  beerPinTitle:'생맥주',
+  beerLabel:'생맥주 500cc 3,000원',
+  food:11000,
+  foodTitle:'식사류',
+  foodLabel:'등심카츠 11,000원부터',
+  total:14000,
+  totalTitle:'등심카츠+생맥주',
+  totalLabel:'14,000원부터',
+  checked:'2026.08.25',
+  eventChecked:'2026.08.25',
+  deal:'오픈 행사 · 테라 생맥주 500cc 3,000원 · 정상가 5,000원 안내 · 등심카츠 11,000원 · 네이버 리뷰 이벤트 운영 안내 · 방문 전 행사 지속 여부 확인 권장',
+  lat:37.6098893055,
+  lng:126.9168521788,
+  source:'https://map.naver.com/p/search/%EA%B5%AC%EC%82%B0%EB%8F%99%20%EC%86%8C%EC%86%8C%EC%8B%9D%ED%83%81?c=15.00,0,0,0,dh&placePath=%2Fphoto%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608251300%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EA%B5%AC%EC%82%B0%EB%8F%99%20%EC%86%8C%EC%86%8C%EC%8B%9D%ED%83%81',
+  directions:'https://map.naver.com/p/directions/-/126.9168521788,37.6098893055/%EC%86%8C%EC%86%8C%EC%8B%9D%ED%83%81%20%EA%B5%AC%EC%82%B0%EC%A0%90/-/transit',
+  images:[
+    'assets/soso-table-gusan/beer-event.webp',
+    'assets/soso-table-gusan/storefront.webp',
+    'assets/soso-table-gusan/eel-rice-bowl.webp'
+  ]
+});
