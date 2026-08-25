@@ -599,3 +599,34 @@ bars.push({
     'assets/907-yuksikdang-gojan/grilled-meat.webp'
   ]
 });
+
+
+bars.push({
+  id:49,
+  name:'금대장 의정부민락점',
+  district:'경기도',
+  hood:'의정부시',
+  area:'경기 의정부시 오목로225번길 79-50 · 민락동 · 민락2지구',
+  soju:3500,
+  sojuLabel:'소주 3,500원',
+  beer:3500,
+  beerLabel:'맥주 3,500원',
+  food:39900,
+  foodTitle:'국내산 암퇘지',
+  foodLabel:'국내산 암퇘지 500g 39,900원',
+  total:43400,
+  totalTitle:'암퇘지+주류',
+  totalLabel:'43,400원부터',
+  checked:'2026.08.26',
+  eventChecked:'2026.08.26',
+  deal:'소주·맥주 각 3,500원 오픈 이벤트 · 국내산 무항생제 암퇘지 1등급 500g 39,900원 · 돌판구이와 셀프바 운영 · 행사 지속 여부와 주문 조건은 방문 전 확인 권장',
+  lat:37.74575,
+  lng:127.0979619,
+  source:'https://map.naver.com/p/search/%EC%9D%98%EC%A0%95%EB%B6%80%20%EB%AF%BC%EB%9D%BD%20%EA%B8%88%EB%8C%80%EC%9E%A5?c=15.00,0,0,0,dh&placePath=%2Fphoto%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608260846%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EC%9D%98%EC%A0%95%EB%B6%80%20%EB%AF%BC%EB%9D%BD%20%EA%B8%88%EB%8C%80%EC%9E%A5%26filterType%3D%EC%97%85%EC%B2%B4',
+  directions:'https://map.naver.com/p/directions/-/127.0979619,37.74575/%EA%B8%88%EB%8C%80%EC%9E%A5%20%EC%9D%98%EC%A0%95%EB%B6%80%EB%AF%BC%EB%9D%BD%EC%A0%90/-/transit',
+  images:[
+    'assets/geumdaejang-minrak/drinks-price.webp',
+    'assets/geumdaejang-minrak/grilled-pork.webp',
+    'assets/geumdaejang-minrak/interior.webp'
+  ]
+});
