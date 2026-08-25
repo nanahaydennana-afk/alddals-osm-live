@@ -413,3 +413,37 @@ bars.push({
     'assets/soso-table-gusan/eel-rice-bowl.webp'
   ]
 });
+
+bars.push({
+  id:43,
+  name:'주류충전소 연남점',
+  district:'서울시',
+  hood:'마포구',
+  area:'서울 마포구 동교로 274 1층 · 연남동 · 홍대입구역 인근',
+  soju:6000,
+  sojuTitle:'라거 생맥주 무제한',
+  sojuPinTitle:'라거 무제한',
+  sojuLabel:'1시간 6,000원',
+  beer:9000,
+  beerTitle:'수제 라거 무제한',
+  beerPinTitle:'수제 라거',
+  beerLabel:'1시간 9,000원',
+  food:NaN,
+  foodTitle:'안주류',
+  foodLabel:'안주 별도 주문',
+  total:6000,
+  totalTitle:'무제한 이용금액',
+  totalLabel:'1시간 6,000원부터',
+  checked:'2026.08.25',
+  eventChecked:'2026.08.25',
+  deal:'사진 가격표 기준 · 라거 생맥주 1시간 무제한 6,000원 · 수제 라거 생맥주 1시간 무제한 9,000원 · 셀프 방식 · 현장 안내와 온라인 메뉴 가격이 다를 수 있어 방문 전 확인 권장',
+  lat:37.5637145,
+  lng:126.9261359,
+  source:'https://map.naver.com/p/search/%EC%8B%A0%EC%B4%8C%20%EC%A3%BC%EB%A5%98%EC%B6%A9%EC%A0%84%EC%86%8C?c=15.00,0,0,0,dh&placePath=%2Fphoto%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608251302%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EC%8B%A0%EC%B4%8C%20%EC%A3%BC%EB%A5%98%EC%B6%A9%EC%A0%84%EC%86%8C',
+  directions:'https://map.naver.com/p/directions/-/126.9261359,37.5637145/%EC%A3%BC%EB%A5%98%EC%B6%A9%EC%A0%84%EC%86%8C%20%EC%97%B0%EB%82%A8%EC%A0%90/-/transit',
+  images:[
+    'assets/alcohol-station-yeonnam/unlimited-beer-menu.webp',
+    'assets/alcohol-station-yeonnam/storefront.webp',
+    'assets/alcohol-station-yeonnam/interior.webp'
+  ]
+});
