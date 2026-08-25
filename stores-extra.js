@@ -291,3 +291,33 @@ bars.push({
     'assets/cebu-in-vodka-hongdae/window-table.webp'
   ]
 });
+
+bars.push({
+  id:39,
+  name:'마포육곳간 길음점',
+  district:'서울시',
+  hood:'성북구',
+  area:'서울 성북구 삼양로 61-1 1층·2층 · 길음동 · 길음역 인근',
+  soju:2500,
+  sojuLabel:'소주 2,500원',
+  beer:2500,
+  beerLabel:'맥주 2,500원',
+  food:8000,
+  foodTitle:'식사류',
+  foodLabel:'냉면 8,000원부터',
+  total:10500,
+  totalTitle:'식사류+주류',
+  totalLabel:'10,500원부터',
+  checked:'2026.08.25',
+  eventChecked:'2026.08.25',
+  deal:'소주 2,500원 · 맥주 2,500원 · 메뉴판 기준 갈비탕 12,900원·제육백반 12,000원·냉면 8,000원 · 고기나 식사 주문 조건 및 최신 가격은 방문 전 확인 권장',
+  lat:37.60862863558232,
+  lng:127.02280298366915,
+  source:'https://map.naver.com/p/entry/place/1358938192?c=15.00,0,0,0,dh&placePath=%2Freview%3FadditionalHeight%3D76%26fromPanelNum%3D1%26locale%3Dko%26svcName%3Dmap_pcv5%26timestamp%3D202608251236',
+  directions:'https://map.naver.com/p/directions/-/127.02280298366915,37.60862863558232/%EB%A7%88%ED%8F%AC%EC%9C%A1%EA%B3%B3%EA%B0%84%20%EA%B8%B8%EC%9D%8C%EC%A0%90/-/transit',
+  images:[
+    'assets/mapo-meat-store-gireum/drinks-menu.webp',
+    'assets/mapo-meat-store-gireum/storefront.webp',
+    'assets/mapo-meat-store-gireum/meat-platter.webp'
+  ]
+});
