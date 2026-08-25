@@ -447,3 +447,35 @@ bars.push({
     'assets/alcohol-station-yeonnam/interior.webp'
   ]
 });
+
+bars.push({
+  id:44,
+  name:'연남항아리',
+  district:'서울시',
+  hood:'마포구',
+  area:'서울 마포구 동교로 256-4 2층 · 연남동 · 홍대입구역 인근',
+  soju:NaN,
+  sojuLabel:'소주 별도 판매',
+  beer:2500,
+  beerTitle:'테라 생맥주 500cc',
+  beerPinTitle:'생맥주',
+  beerLabel:'테라 생맥주 500cc 2,500원',
+  food:32000,
+  foodTitle:'대표 메뉴',
+  foodLabel:'항아리 치킨 플래터 32,000원',
+  total:34500,
+  totalTitle:'치킨 플래터+생맥주',
+  totalLabel:'34,500원',
+  checked:'2026.08.25',
+  eventChecked:'2026.08.25',
+  deal:'오픈 기념 미친 할인 이벤트 · 테라 생맥주 500cc 1잔 2,500원 · 항아리 치킨과 수제맥주 판매 · 조기 종료 가능 안내 · 방문 전 행사 지속 여부 확인 권장',
+  lat:37.5625238,
+  lng:126.9249392,
+  source:'https://map.naver.com/p/search/%EC%97%B0%EB%82%A8%ED%95%AD%EC%95%84%EB%A6%AC?c=15.00,0,0,0,dh&placePath=%2Fphoto%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608251307%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EC%97%B0%EB%82%A8%ED%95%AD%EC%95%84%EB%A6%AC',
+  directions:'https://map.naver.com/p/directions/-/126.9249392,37.5625238/%EC%97%B0%EB%82%A8%ED%95%AD%EC%95%84%EB%A6%AC/-/transit',
+  images:[
+    'assets/yeonnam-hangari/beer-event.webp',
+    'assets/yeonnam-hangari/menu.webp',
+    'assets/yeonnam-hangari/chicken-spread.webp'
+  ]
+});
