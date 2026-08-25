@@ -539,3 +539,33 @@ bars.push({
     'assets/namjin-dongtan/grill-platter.webp'
   ]
 });
+
+bars.push({
+  id:47,
+  name:'정가삼겹 삼성마을점',
+  district:'경기도',
+  hood:'군포시',
+  area:'경기 군포시 삼성로 5 해피시티 1층 112호 · 부곡동 · 삼성마을',
+  soju:3500,
+  sojuLabel:'소주 3,500원',
+  beer:4500,
+  beerLabel:'맥주 4,500원',
+  food:12000,
+  foodTitle:'국내산 생삼겹살',
+  foodLabel:'180g 12,000원',
+  total:15500,
+  totalTitle:'생삼겹살+소주',
+  totalLabel:'15,500원부터',
+  checked:'2026.08.26',
+  eventChecked:'2026.08.26',
+  deal:'상시가격 안내 · 소주 3,500원 · 맥주 4,500원 · 국내산 생삼겹살 180g 12,000원 · 최신 가격과 주문 조건은 방문 전 확인 권장',
+  lat:37.3360236,
+  lng:126.9340843,
+  source:'https://map.naver.com/p/search/%20%EC%82%BC%EC%84%B1%EB%A7%88%EC%9D%84%20%20%EC%A0%95%EA%B0%80%EC%82%BC%EA%B2%B9?c=15.00,0,0,0,dh&placePath=%2Fphoto%3Fentry%3Dple%26filterType%3D%EC%97%85%EC%B2%B4',
+  directions:'https://map.naver.com/p/directions/-/126.9340843,37.3360236/%EC%A0%95%EA%B0%80%EC%82%BC%EA%B2%B9%20%EC%82%BC%EC%84%B1%EB%A7%88%EC%9D%84%EC%A0%90/-/transit',
+  images:[
+    'assets/jungga-samgyeop-gunpo/storefront.webp',
+    'assets/jungga-samgyeop-gunpo/pork-info.webp',
+    'assets/jungga-samgyeop-gunpo/ssamjang.webp'
+  ]
+});
