@@ -509,3 +509,33 @@ bars.push({
     'assets/izakaya-yeonjeong/skewers.webp'
   ]
 });
+
+bars.push({
+  id:46,
+  name:'남진식당 동탄능동점',
+  district:'경기도',
+  hood:'화성시',
+  area:'경기 화성시 동탄구 여울로 178-5 2층 207호 · 능동 · 동탄 능동고 인근',
+  soju:2000,
+  sojuLabel:'소주 2,000원',
+  beer:2000,
+  beerLabel:'맥주 2,000원',
+  food:59000,
+  foodTitle:'돼지모둠',
+  foodLabel:'돼지모둠 1kg 59,000원',
+  total:61000,
+  totalTitle:'돼지모둠+주류',
+  totalLabel:'61,000원부터',
+  checked:'2026.08.26',
+  eventChecked:'2026.08.26',
+  deal:'소주·맥주 각 2,000원 이벤트 · 돼지모둠 1kg 59,000원 안내 · 고기 주문 조건과 행사 지속 여부는 방문 전 확인 권장',
+  lat:37.2144841,
+  lng:127.0568831,
+  source:'https://map.naver.com/p/search/%EB%8A%A5%EB%8F%99%20%EB%82%A8%EC%A7%84%EC%8B%9D%EB%8B%B9?c=15.00,0,0,0,dh&placePath=%2Fphoto%3Ffrom%3Dmap%26fromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202608260812%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EB%8A%A5%EB%8F%99%20%EB%82%A8%EC%A7%84%EC%8B%9D%EB%8B%B9%26filterType%3D%EC%97%85%EC%B2%B4',
+  directions:'https://map.naver.com/p/directions/-/127.0568831,37.2144841/%EB%82%A8%EC%A7%84%EC%8B%9D%EB%8B%B9%20%EB%8F%99%ED%83%84%EB%8A%A5%EB%8F%99%EC%A0%90/-/transit',
+  images:[
+    'assets/namjin-dongtan/drinks-event.webp',
+    'assets/namjin-dongtan/chicken-hotpot.webp',
+    'assets/namjin-dongtan/grill-platter.webp'
+  ]
+});
