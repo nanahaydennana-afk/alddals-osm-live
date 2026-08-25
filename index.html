@@ -7,7 +7,7 @@
 </style></head><body>
 
 <div class="wrap"><div class="top"><div class="brand"><span class="logo">알</span><div class="brand-copy"><span class="brand-name">알딸쓰</span><div class="tagline"><span class="price-age">고물가, 고유가, 고酒가 시대에</span><br><span class="tipsy">알딸딸한 주당들의 집합소</span></div></div></div><div class="top-actions"><a class="bang-link" href="bang.html">🍻 술벙개방</a><button class="report" id="report">💬 정보 공유</button></div></div>
-<div class="controls"><input id="q" placeholder="술집·동네 검색"><select id="district" aria-label="광역 지역 선택"><option>서울시</option><option>인천시</option><option>경기도</option></select><select id="hood" aria-label="세부 지역 선택"><option value="전체">전체 구</option></select></div>
+<div class="controls"><input id="q" placeholder="술집·동네 검색"><select id="district" aria-label="광역 지역 선택"><option>서울시</option><option>인천시</option><option>경기도</option><option>강원도</option><option>부산시</option></select><select id="hood" aria-label="세부 지역 선택"><option value="전체">전체 구</option></select></div>
 <div class="layout"><div class="mapbox"><a href="bang.html" class="bang-icon" aria-label="술벙개 페이지로 이동" title="술벙개">🍻</a><div id="map" class="map"></div><button class="locate" id="locate" aria-label="현재 위치">⌖</button></div><aside id="detail" class="detail"></aside></div><div class="foot">© OpenStreetMap contributors · 가격은 방문 전 매장 확인 권장</div></div>
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="stores.js"></script>
@@ -16,9 +16,9 @@
 const IMG='https://alddals-fresh-2.matthewtheresa8379.chatgpt.site';
 const imageUrl=p=>(p.startsWith('data:')||p.startsWith('http://')||p.startsWith('https://')||p.startsWith('assets/'))?p:IMG+p;
 const map=L.map('map',{minZoom:8,maxZoom:19}).setView([37.6076,126.9179],14);L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);const layer=L.layerGroup().addTo(map);let selected=11;
-const REGION_VIEWS={'서울시':[[37.5665,126.9780],11],'인천시':[[37.4563,126.7052],11],'경기도':[[37.4138,127.5183],9]};
+const REGION_VIEWS={'서울시':[[37.5665,126.9780],11],'인천시':[[37.4563,126.7052],11],'경기도':[[37.4138,127.5183],9],'강원도':[[37.8228,128.1555],9],'부산시':[[35.1796,129.0756],11]};
 const money=n=>Number.isFinite(n)?n.toLocaleString('ko-KR')+'원':'미확인';const priceText=(b,key)=>b[key+'Label']||money(b[key]);const pinTitle=(b,key,fallback)=>b[key+'PinTitle']||fallback;
-function hoods(){const d=document.getElementById('district').value;const hs=[...new Set(bars.filter(x=>x.district===d).map(x=>x.hood))].sort((a,b)=>a.localeCompare(b,'ko'));const allLabel=d==='경기도'?'전체 시':'전체 구';document.getElementById('hood').innerHTML=`<option value="전체">${allLabel}</option>`+hs.map(x=>`<option value="${x}">${x}</option>`).join('')}
+function hoods(){const d=document.getElementById('district').value;const hs=[...new Set(bars.filter(x=>x.district===d).map(x=>x.hood))].sort((a,b)=>a.localeCompare(b,'ko'));const allLabel=d==='경기도'?'전체 시':d==='강원도'?'전체 시·군':'전체 구';document.getElementById('hood').innerHTML=`<option value="전체">${allLabel}</option>`+hs.map(x=>`<option value="${x}">${x}</option>`).join('')}
 function visible(){const d=document.getElementById('district').value,h=document.getElementById('hood').value,q=document.getElementById('q').value.trim();return bars.filter(x=>x.district===d&&(h==='전체'||x.hood===h)&&(`${x.name} ${x.area} ${x.district} ${x.hood}`.includes(q)))}
 function icon(b){return L.divIcon({className:'',html:`<div class="pin ${b.id===selected?'sel':''}"><small>${b.name}</small><b><span>${pinTitle(b,'soju','소주')} ${priceText(b,'soju')}</span><span>${pinTitle(b,'beer','맥주')} ${priceText(b,'beer')}</span></b></div>`,iconSize:[150,52],iconAnchor:[75,52]})}
 function render(){layer.clearLayers();const vs=visible();vs.forEach(b=>L.marker([b.lat,b.lng],{icon:icon(b)}).addTo(layer).on('click',()=>{selected=b.id;render();detail(b);map.panTo([b.lat,b.lng])}));const s=vs.find(x=>x.id===selected)||vs[0];if(s){selected=s.id;detail(s)}else document.getElementById('detail').innerHTML='<div class="empty">조건에 맞는 술집이 없습니다.</div>'}
