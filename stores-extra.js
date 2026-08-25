@@ -569,3 +569,33 @@ bars.push({
     'assets/jungga-samgyeop-gunpo/ssamjang.webp'
   ]
 });
+
+bars.push({
+  id:48,
+  name:'907육식당 고잔점',
+  district:'경기도',
+  hood:'안산시',
+  area:'경기 안산시 단원구 광덕2로 186-9 석담플라자 1층 101호 · 고잔동',
+  soju:2900,
+  sojuLabel:'소주 2,900원',
+  beer:2900,
+  beerLabel:'맥주 2,900원',
+  food:15900,
+  foodTitle:'고기류',
+  foodLabel:'고기류 15,900원부터',
+  total:18800,
+  totalTitle:'고기+주류',
+  totalLabel:'18,800원부터',
+  checked:'2026.08.26',
+  eventChecked:'2026.08.26',
+  deal:'소주·맥주 각 2,900원 · 소·돼지 숯불구이와 특수부위 세트 판매 · 직원이 직접 구워주는 매장 · 최신 가격과 주문 조건은 방문 전 확인 권장',
+  lat:37.3087447,
+  lng:126.8312309,
+  source:'https://map.naver.com/p/search/907%EC%9C%A1%EC%8B%9D%EB%8B%B9/place/2082639448?c=15.00,0,0,0,dh&placePath=%2Fphoto%3Fbk_query%3D907%EC%9C%A1%EC%8B%9D%EB%8B%B9%26entry%3Dbmp%26fromPanelNum%3D2%26timestamp%3D202608260831%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D907%EC%9C%A1%EC%8B%9D%EB%8B%B9%26filterType%3DAI%20View%26subFilter%3DFOOD',
+  directions:'https://map.naver.com/p/directions/-/126.8312309,37.3087447/907%EC%9C%A1%EC%8B%9D%EB%8B%B9%20%EA%B3%A0%EC%9E%94%EC%A0%90/-/transit',
+  images:[
+    'assets/907-yuksikdang-gojan/meat-platter.webp',
+    'assets/907-yuksikdang-gojan/interior.webp',
+    'assets/907-yuksikdang-gojan/grilled-meat.webp'
+  ]
+});
