@@ -223,3 +223,37 @@ bars.push({
     'assets/doldam-isu/unlimited-menu.webp'
   ]
 });
+
+bars.push({
+  id:37,
+  name:'삼미미바 3MM BAR',
+  district:'서울시',
+  hood:'강남구',
+  area:'서울 강남구 논현로87길 41 신일유토빌 109호 · 역삼동 · 역삼역 3번 출구 인근',
+  soju:30000,
+  sojuTitle:'주류 무제한',
+  sojuPinTitle:'무제한',
+  sojuLabel:'첫 58분 30,000원',
+  beer:5000,
+  beerTitle:'추가 이용',
+  beerPinTitle:'추가 9분',
+  beerLabel:'9분당 5,000원',
+  food:0,
+  foodTitle:'포함 주종',
+  foodLabel:'칵테일·위스키·사케·와인·맥주',
+  total:30000,
+  totalTitle:'첫 이용 금액',
+  totalLabel:'1인 30,000원',
+  checked:'2026.08.25',
+  eventChecked:'2026.08.25',
+  deal:'첫 58분 1인 30,000원 · 이후 9분당 5,000원 · 칵테일·위스키·사케·와인·맥주 무제한 · 일부 프리미엄 주류와 이용 조건은 방문 전 확인 권장',
+  lat:37.4988329157332,
+  lng:127.033517432189,
+  source:'https://map.naver.com/p/search/%EC%97%AD%EC%82%BC%20%EC%82%BC%EB%AF%B8%EB%AF%B8/place/1849787817?c=15.00,0,0,0,dh&placePath=%2Fphoto%3Fbk_query%3D%EC%97%AD%EC%82%BC%20%EC%82%BC%EB%AF%B8%EB%AF%B8%26entry%3Dbmp%26fromPanelNum%3D2%26locale%3Dko%26searchText%3D%EC%97%AD%EC%82%BC%20%EC%82%BC%EB%AF%B8%EB%AF%B8%26svcName%3Dmap_pcv5%26timestamp%3D202608250802%26from%3Dmap%26fromPanelNum%3D2%26timestamp%3D202608250808%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EC%97%AD%EC%82%BC%20%EC%82%BC%EB%AF%B8%EB%AF%B8',
+  directions:'https://map.naver.com/p/directions/-/127.033517432189,37.4988329157332/%EC%82%BC%EB%AF%B8%EB%AF%B8%EB%B0%94%203MM%20BAR/-/transit',
+  images:[
+    'assets/sammimi-yeoksam/unlimited-sign.webp',
+    'assets/sammimi-yeoksam/bar-wide.webp',
+    'assets/sammimi-yeoksam/counter-fruit.webp'
+  ]
+});
