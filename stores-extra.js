@@ -321,3 +321,33 @@ bars.push({
     'assets/mapo-meat-store-gireum/meat-platter.webp'
   ]
 });
+
+bars.push({
+  id:40,
+  name:'노량진생고기',
+  district:'서울시',
+  hood:'동작구',
+  area:'서울 동작구 만양로 108 1층 · 노량진동 · 노량진역 인근',
+  soju:1900,
+  sojuLabel:'소주 1,900원',
+  beer:5000,
+  beerLabel:'맥주 5,000원',
+  food:6000,
+  foodTitle:'식사류',
+  foodLabel:'냉면 6,000원부터',
+  total:7900,
+  totalTitle:'식사류+소주',
+  totalLabel:'7,900원부터',
+  checked:'2026.08.25',
+  eventChecked:'2026.08.25',
+  deal:'소주 1,900원 · 맥주 5,000원 · 메뉴판 기준 냉면 6,000원·소갈비살 17,000원·눈꽃살 25,000원 · 고기 주문 조건과 최신 가격은 방문 전 확인 권장',
+  lat:37.5130381,
+  lng:126.944369,
+  source:'https://map.naver.com/p/search/%EB%85%B8%EB%9F%89%EC%A7%84%20%EC%83%9D%EA%B3%A0%EA%B8%B0/place/1170692776?c=15.00,0,0,0,dh&placePath=%2Fphoto%3Fbk_query%3D%EB%85%B8%EB%9F%89%EC%A7%84%20%EC%83%9D%EA%B3%A0%EA%B8%B0%26entry%3Dbmp%26fromPanelNum%3D2%26timestamp%3D202608251241%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EB%85%B8%EB%9F%89%EC%A7%84%20%EC%83%9D%EA%B3%A0%EA%B8%B0%26filterType%3D%EC%97%85%EC%B2%B4',
+  directions:'https://map.naver.com/p/directions/-/126.944369,37.5130381/%EB%85%B8%EB%9F%89%EC%A7%84%EC%83%9D%EA%B3%A0%EA%B8%B0/-/transit',
+  images:[
+    'assets/noryangjin-fresh-meat/storefront.webp',
+    'assets/noryangjin-fresh-meat/meat-platter.webp',
+    'assets/noryangjin-fresh-meat/drinks-menu.webp'
+  ]
+});
