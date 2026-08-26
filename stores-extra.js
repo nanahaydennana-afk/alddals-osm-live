@@ -630,3 +630,33 @@ bars.push({
     'assets/geumdaejang-minrak/interior.webp'
   ]
 });
+
+bars.push({
+  id:50,
+  name:'철산회관 철산본점',
+  district:'경기도',
+  hood:'광명시',
+  area:'경기 광명시 오리로856번길 12 2층 · 철산동 · 철산역 인근',
+  soju:3000,
+  sojuLabel:'소주 3,000원',
+  beer:5000,
+  beerLabel:'맥주 5,000원',
+  food:12000,
+  foodTitle:'냉동삼겹살',
+  foodLabel:'냉동삼겹살 170g 12,000원',
+  total:15000,
+  totalTitle:'냉동삼겹살+소주',
+  totalLabel:'15,000원부터',
+  checked:'2026.08.26',
+  eventChecked:'2026.08.26',
+  deal:'소주 3,000원 · 맥주 5,000원 · 냉동삼겹살 170g 12,000원 · 17가지 셀프바 운영 안내 · 최신 가격과 주문 조건은 방문 전 확인 권장',
+  lat:37.4745111,
+  lng:126.8682326,
+  source:'https://map.naver.com/p/search/%EA%B4%91%EB%AA%85%EC%8B%9C%20%EC%B2%A0%EC%82%B0%ED%9A%8C%EA%B4%80/place/1563130414?c=15.00,0,0,0,dh&placePath=%2Fphoto%3Fentry%3Dple%26filterType%3DAI%20View%26subFilter%3DINTERIOR',
+  directions:'https://map.naver.com/p/directions/-/126.8682326,37.4745111/%EC%B2%A0%EC%82%B0%ED%9A%8C%EA%B4%80%20%EC%B2%A0%EC%82%B0%EB%B3%B8%EC%A0%90/-/transit',
+  images:[
+    'assets/cheolsan-hoegwan-gwangmyeong/interior-menu.webp',
+    'assets/cheolsan-hoegwan-gwangmyeong/grilled-pork.webp',
+    'assets/cheolsan-hoegwan-gwangmyeong/meat-platter.webp'
+  ]
+});
